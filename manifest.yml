@@ -1,0 +1,6 @@
+---
+applications:
+- name: howdy-python
+  memory: 512MB
+  buildpack: python_buildpack
+  command: python howdy.py
