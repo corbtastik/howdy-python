@@ -1,6 +1,7 @@
 ---
 applications:
 - name: howdy-python
+  random-route: true
   memory: 512MB
   buildpack: python_buildpack
   command: python howdy.py
